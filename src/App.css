@@ -1,0 +1,59 @@
+body {
+  margin: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline {
+  display: inline;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-two-columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-four-columns {
+  grid-template-columns: 1fr 1fr 0.25fr 0.25fr;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.bg-gray {
+  background-color: #f8f8f8;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.bl {
+  border-left: 5px solid grey;
+}
